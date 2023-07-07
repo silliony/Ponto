@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43826A6E2A586301006FE24C /* PontoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43826A6D2A586301006FE24C /* PontoApp.swift */; };
+		43826A702A586301006FE24C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43826A6F2A586301006FE24C /* Dashboard.swift */; };
+		43826A722A586303006FE24C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43826A712A586303006FE24C /* Assets.xcassets */; };
+		43826A752A586303006FE24C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43826A742A586303006FE24C /* Preview Assets.xcassets */; };
+		43826A7F2A586303006FE24C /* PontoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43826A7E2A586303006FE24C /* PontoTests.swift */; };
+		43826A892A586303006FE24C /* PontoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43826A882A586303006FE24C /* PontoUITests.swift */; };
+		43826A8B2A586303006FE24C /* PontoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43826A8A2A586303006FE24C /* PontoUITestsLaunchTests.swift */; };
+		43A73C382A588AE00062323E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A73C372A588AE00062323E /* Theme.swift */; };
+		43A73C412A588F5C0062323E /* LoggedMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A73C402A588F5C0062323E /* LoggedMember.swift */; };
+		43A73C432A5891820062323E /* SessionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A73C422A5891820062323E /* SessionRowView.swift */; };
+		43A73C452A589DDE0062323E /* SessionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A73C442A589DDE0062323E /* SessionsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43826A7B2A586303006FE24C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43826A622A586301006FE24C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43826A692A586301006FE24C;
+			remoteInfo = Ponto;
+		};
+		43826A852A586303006FE24C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43826A622A586301006FE24C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43826A692A586301006FE24C;
+			remoteInfo = Ponto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43826A6A2A586301006FE24C /* Ponto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ponto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43826A6D2A586301006FE24C /* PontoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontoApp.swift; sourceTree = "<group>"; };
+		43826A6F2A586301006FE24C /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		43826A712A586303006FE24C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43826A742A586303006FE24C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43826A7A2A586303006FE24C /* PontoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43826A7E2A586303006FE24C /* PontoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontoTests.swift; sourceTree = "<group>"; };
+		43826A842A586303006FE24C /* PontoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43826A882A586303006FE24C /* PontoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontoUITests.swift; sourceTree = "<group>"; };
+		43826A8A2A586303006FE24C /* PontoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43A73C372A588AE00062323E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		43A73C402A588F5C0062323E /* LoggedMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedMember.swift; sourceTree = "<group>"; };
+		43A73C422A5891820062323E /* SessionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionRowView.swift; sourceTree = "<group>"; };
+		43A73C442A589DDE0062323E /* SessionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43826A672A586301006FE24C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43826A772A586303006FE24C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43826A812A586303006FE24C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43826A612A586301006FE24C = {
+			isa = PBXGroup;
+			children = (
+				43826A6C2A586301006FE24C /* Ponto */,
+				43826A7D2A586303006FE24C /* PontoTests */,
+				43826A872A586303006FE24C /* PontoUITests */,
+				43826A6B2A586301006FE24C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43826A6B2A586301006FE24C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43826A6A2A586301006FE24C /* Ponto.app */,
+				43826A7A2A586303006FE24C /* PontoTests.xctest */,
+				43826A842A586303006FE24C /* PontoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43826A6C2A586301006FE24C /* Ponto */ = {
+			isa = PBXGroup;
+			children = (
+				43826A6D2A586301006FE24C /* PontoApp.swift */,
+				43826A6F2A586301006FE24C /* Dashboard.swift */,
+				43826A712A586303006FE24C /* Assets.xcassets */,
+				43826A732A586303006FE24C /* Preview Content */,
+				43A73C392A588AFB0062323E /* Models */,
+				43A73C422A5891820062323E /* SessionRowView.swift */,
+				43A73C442A589DDE0062323E /* SessionsView.swift */,
+			);
+			path = Ponto;
+			sourceTree = "<group>";
+		};
+		43826A732A586303006FE24C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43826A742A586303006FE24C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43826A7D2A586303006FE24C /* PontoTests */ = {
+			isa = PBXGroup;
+			children = (
+				43826A7E2A586303006FE24C /* PontoTests.swift */,
+			);
+			path = PontoTests;
+			sourceTree = "<group>";
+		};
+		43826A872A586303006FE24C /* PontoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43826A882A586303006FE24C /* PontoUITests.swift */,
+				43826A8A2A586303006FE24C /* PontoUITestsLaunchTests.swift */,
+			);
+			path = PontoUITests;
+			sourceTree = "<group>";
+		};
+		43A73C392A588AFB0062323E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				43A73C372A588AE00062323E /* Theme.swift */,
+				43A73C402A588F5C0062323E /* LoggedMember.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43826A692A586301006FE24C /* Ponto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43826A8E2A586303006FE24C /* Build configuration list for PBXNativeTarget "Ponto" */;
+			buildPhases = (
+				43826A662A586301006FE24C /* Sources */,
+				43826A672A586301006FE24C /* Frameworks */,
+				43826A682A586301006FE24C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ponto;
+			productName = Ponto;
+			productReference = 43826A6A2A586301006FE24C /* Ponto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43826A792A586303006FE24C /* PontoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43826A912A586303006FE24C /* Build configuration list for PBXNativeTarget "PontoTests" */;
+			buildPhases = (
+				43826A762A586303006FE24C /* Sources */,
+				43826A772A586303006FE24C /* Frameworks */,
+				43826A782A586303006FE24C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43826A7C2A586303006FE24C /* PBXTargetDependency */,
+			);
+			name = PontoTests;
+			productName = PontoTests;
+			productReference = 43826A7A2A586303006FE24C /* PontoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43826A832A586303006FE24C /* PontoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43826A942A586303006FE24C /* Build configuration list for PBXNativeTarget "PontoUITests" */;
+			buildPhases = (
+				43826A802A586303006FE24C /* Sources */,
+				43826A812A586303006FE24C /* Frameworks */,
+				43826A822A586303006FE24C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43826A862A586303006FE24C /* PBXTargetDependency */,
+			);
+			name = PontoUITests;
+			productName = PontoUITests;
+			productReference = 43826A842A586303006FE24C /* PontoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43826A622A586301006FE24C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					43826A692A586301006FE24C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					43826A792A586303006FE24C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 43826A692A586301006FE24C;
+					};
+					43826A832A586303006FE24C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 43826A692A586301006FE24C;
+					};
+				};
+			};
+			buildConfigurationList = 43826A652A586301006FE24C /* Build configuration list for PBXProject "Ponto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43826A612A586301006FE24C;
+			productRefGroup = 43826A6B2A586301006FE24C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43826A692A586301006FE24C /* Ponto */,
+				43826A792A586303006FE24C /* PontoTests */,
+				43826A832A586303006FE24C /* PontoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43826A682A586301006FE24C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43826A752A586303006FE24C /* Preview Assets.xcassets in Resources */,
+				43826A722A586303006FE24C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43826A782A586303006FE24C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43826A822A586303006FE24C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43826A662A586301006FE24C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A73C382A588AE00062323E /* Theme.swift in Sources */,
+				43A73C452A589DDE0062323E /* SessionsView.swift in Sources */,
+				43826A702A586301006FE24C /* Dashboard.swift in Sources */,
+				43A73C432A5891820062323E /* SessionRowView.swift in Sources */,
+				43826A6E2A586301006FE24C /* PontoApp.swift in Sources */,
+				43A73C412A588F5C0062323E /* LoggedMember.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43826A762A586303006FE24C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43826A7F2A586303006FE24C /* PontoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43826A802A586303006FE24C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43826A892A586303006FE24C /* PontoUITests.swift in Sources */,
+				43826A8B2A586303006FE24C /* PontoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43826A7C2A586303006FE24C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43826A692A586301006FE24C /* Ponto */;
+			targetProxy = 43826A7B2A586303006FE24C /* PBXContainerItemProxy */;
+		};
+		43826A862A586303006FE24C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43826A692A586301006FE24C /* Ponto */;
+			targetProxy = 43826A852A586303006FE24C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43826A8C2A586303006FE24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43826A8D2A586303006FE24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43826A8F2A586303006FE24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ponto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CPEJr.Ponto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43826A902A586303006FE24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ponto/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CPEJr.Ponto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43826A922A586303006FE24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CPEJr.PontoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ponto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ponto";
+			};
+			name = Debug;
+		};
+		43826A932A586303006FE24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CPEJr.PontoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ponto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ponto";
+			};
+			name = Release;
+		};
+		43826A952A586303006FE24C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CPEJr.PontoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ponto;
+			};
+			name = Debug;
+		};
+		43826A962A586303006FE24C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CPEJr.PontoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ponto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43826A652A586301006FE24C /* Build configuration list for PBXProject "Ponto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43826A8C2A586303006FE24C /* Debug */,
+				43826A8D2A586303006FE24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43826A8E2A586303006FE24C /* Build configuration list for PBXNativeTarget "Ponto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43826A8F2A586303006FE24C /* Debug */,
+				43826A902A586303006FE24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43826A912A586303006FE24C /* Build configuration list for PBXNativeTarget "PontoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43826A922A586303006FE24C /* Debug */,
+				43826A932A586303006FE24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43826A942A586303006FE24C /* Build configuration list for PBXNativeTarget "PontoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43826A952A586303006FE24C /* Debug */,
+				43826A962A586303006FE24C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43826A622A586301006FE24C /* Project object */;
+}
